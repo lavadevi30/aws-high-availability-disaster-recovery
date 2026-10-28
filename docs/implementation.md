@@ -21,4 +21,4 @@ Fill in details that you can safely share:
 - Relevant listener ports:
 - Any differences between primary and secondary:
 
-Do not include AWS credentials, private keys, account-sensitive information, or secrets.
+
