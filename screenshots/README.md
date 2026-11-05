@@ -28,7 +28,8 @@ Under normal operating conditions, DNS queries resolve to the Mumbai region (`ap
 ## 4. Simulated Outage & Health Check Eviction
 During failover testing, traffic to the primary endpoint was blocked. Route 53 detected the failure, marking the primary health check **Unhealthy** while confirming the Sydney endpoint remained **Healthy**.
 
-![Primary Health Check Failed](mumbai-health-failed.png)
+![Primary Health Check Failed](Primary%20Health%20Check%20Failed.png)
+
 
 ---
 
