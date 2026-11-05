@@ -4,7 +4,7 @@ The automated failover configuration between our active production environment a
 
 ## Test Record
 
-- **Test date:** 2026-11-05
+- **Test date:** 2025-07-05
 - **Primary endpoint:** ://amazonaws.com
 - **Secondary endpoint:** ://amazonaws.com
 - **How the primary endpoint was made unhealthy:** Modified the inbound Security Group rules on the primary Mumbai Application Load Balancer to drop all incoming TCP traffic on ports 80 and 443 from `0.0.0.0/0`, effectively simulating a hard gateway timeout and causing the active Route 53 health check monitor (`Mumbai health`) to fail.
