@@ -42,7 +42,7 @@ Within the public hosted zone for `calmadosoul.online`, an active-passive routin
 | Record Name | Type | Routing Policy | Set ID | Evaluate Target Health | Associated Health Check |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `calmadosoul.online` | A | **Failover (Primary)** | `mumbai-primary` | Yes | `Mumbai health` |
-| `calmadosoul.online` | A | **Failover (Secondary)** | `sydney-standby` | Yes | *None (Default Pass)* |
+| `calmadosoul.online` | A | **Failover (Secondary)** | `sydney-standby` | Yes | *Sydney health* |
 
 *Note: The Time-to-Live (TTL) routing profile is systematically managed via the AWS Alias layer to ensure rapid DNS records invalidation during failover execution.*
 
